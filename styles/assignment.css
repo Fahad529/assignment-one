@@ -5,13 +5,12 @@
 
 /* banner and header */
 
-.banner{
+.banner {
     text-align: left;
 }
 
 .banner-title {
     padding: 216px 845px 365px 230px;
-    /* margin-bottom: 24px; */
     font-weight: 600;
     font-size: 35px;
 }
@@ -32,10 +31,156 @@
     font-weight: 600;
     font-size: 20px;
     color: #FFFFFF;
+    border: 0;
 }
 
 .header {
     background-image: url('../images/banner/banner0.jpg');
     width: 1600px;
     height: 800px;
+}
+
+/* main styles */
+.first-content {
+    display: flex;
+    align-items: center;
+    margin: 130px 250px;
+    justify-content: space-between;
+    width: 1102px;
+    height: 723.3px;
+
+}
+
+.main-d-title {
+    width: 288px;
+    height: 94px;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 24px;
+
+}
+
+.main-d-descript {
+    width: 416px;
+    height: 104px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* main-d-list */
+.list {
+    margin-bottom: 8px;
+}
+
+/* main second-container */
+.second-info-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 130px 230px;
+    width: 1141px;
+    height: 299.96px;
+
+}
+
+/* .second-info{
+    align-items: center;
+} */
+
+.second-info .info-title {
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center
+}
+
+.second-info .info-description {
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+}
+
+/* main third container */
+.section-container {
+    background-image: url('../images/watch.png');
+    width: 1140px;
+    height: 300px;
+    margin: 125px 230px;
+
+}
+
+.section-title h2 {
+    margin-bottom: 24px;
+}
+
+.section-container .section-title {
+    padding: 60px 617px 150px 60px
+}
+
+.section-title .section-description {
+    font-weight: 700;
+    font-size: 40px;
+    width: 459px;
+    height: 94px;
+}
+
+/* button  */
+.button-primary {
+    width: 140px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: 0;
+
+}
+
+/* footer contact styles */
+.contact {
+    display: flex;
+    gap: 100px;
+    background: #151414;
+    padding: 130px 200px;
+    color: #FFFFFF;
+    width: 1200px;
+    height: 350px;
+}
+
+.contact .contact-title {
+    text-align: left;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+
+.contact-description {
+    font-weight: 400;
+    font-size: 16px;
+    width: 485px;
+    height: 78px;
+}
+
+.contact h2 {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.contact p {
+    margin-bottom: 16px;
+}
+
+.contact input {
+    margin-bottom: 16px;
+    border: 0;
+    width: 100%;
+
+}
+
+input {
+    height: 20px;
+    padding: 18px 30px;
+    border-radius: 5px;
+}
+
+.contact a {
+    text-decoration: none;
 }
