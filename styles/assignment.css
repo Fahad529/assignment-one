@@ -82,10 +82,6 @@
 
 }
 
-/* .second-info{
-    align-items: center;
-} */
-
 .second-info .info-title {
     font-weight: 700;
     font-size: 30px;
@@ -138,7 +134,7 @@
 /* footer contact styles */
 .contact {
     display: flex;
-    gap: 100px;
+    gap: 250px;
     background: #151414;
     padding: 130px 200px;
     color: #FFFFFF;
